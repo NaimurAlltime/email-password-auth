@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -29,6 +29,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 h1 {
@@ -66,4 +69,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+/* password toggle icon  */
+.password-toggle-icon {
+  position: absolute;
+  top: 182px;
+  right: 25px;
+  z-index: 1000;
+  cursor: pointer;
 }
